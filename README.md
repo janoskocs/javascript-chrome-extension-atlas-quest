@@ -19,7 +19,7 @@ A beautiful Chrome extension that automatically shows detailed location informat
 1. **API Server** - You'll need the AtlasQuest API running locally first:
 
    ```
-   👉 Set up the API: [AtlasQuest API Repository](YOUR_API_REPO_LINK_HERE)
+   👉 Set up the API: [AtlasQuest API Repository](https://github.com/janoskocs/typescript-nodejs-express-ai-api-atlas-quest)
    ```
 
 2. **Google Chrome** - Extension works with Chrome/Chromium browsers
