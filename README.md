@@ -2,7 +2,7 @@
 
 A beautiful Chrome extension that automatically shows detailed location information when you click on places in Google Maps. Get instant access to population, GDP, industries, and more!
 
-![AtlasQuest Demo](https://raw.githubusercontent.com/janoskocs/javascript-chrome-extension-atlas-quest/refs/heads/main/AtlasQuest.png)
+![AtlasQuest Demo](AtlasQuest.png)
 
 ## ✨ Features
 
