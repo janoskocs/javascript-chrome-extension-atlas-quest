@@ -51,7 +51,6 @@ const UI = {
   showLoading(location) {
     this.overlay.innerHTML = `
       <div class="atlas-header">
-        <button class="atlas-close" onclick="UI.hideOverlay()">×</button>
         <h2 class="atlas-title">${location}</h2>
       </div>
       <div class="atlas-content">
@@ -84,7 +83,6 @@ const UI = {
 
     this.overlay.innerHTML = `
       <div class="atlas-header">
-        <button class="atlas-close" onclick="UI.hideOverlay()">×</button>
         <h2 class="atlas-title">${data.cityName || location}</h2>
       </div>
       <div class="atlas-content">
