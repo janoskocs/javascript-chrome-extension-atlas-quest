@@ -1,14 +1,27 @@
 {
   "manifest_version": 3,
   "name": "AtlasQuest",
-  "version": "1.0",
-  "description": "Shows population and GDP of cities on Google Maps.",
-  "permissions": ["activeTab", "scripting"],
-  "host_permissions": ["https://www.google.com/maps/*"],
+  "version": "1.0.0",
+  "description": "Shows location info when you click places in Google Maps",
+  "permissions": ["activeTab"],
+  "host_permissions": [
+    "https://www.google.com/maps/*",
+    "http://localhost:5050/*"
+  ],
   "content_scripts": [
     {
       "matches": ["https://www.google.com/maps/*"],
-      "js": ["content.js"]
+      "js": [
+        "src/utils/cache.js",
+        "src/utils/logger.js",
+        "src/services/locationExtractor.js",
+        "src/services/apiService.js",
+        "src/components/ui.js",
+        "src/components/observer.js",
+        "src/main.js"
+      ],
+      "css": ["src/styles/styles.css"],
+      "run_at": "document_end"
     }
   ]
 }
